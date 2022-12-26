@@ -1,0 +1,45 @@
+site_name: Zoro.to API
+theme:
+  name: material
+  logo: "logo.jpg"
+  favicon: "logo.jpg"
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - header.autohide
+    
+repo_url: https://github.com/yashraj-n/zoro-to-api
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+
+nav:
+  - Home: 'index.md'
+  - Note: 'note.md'
+  - "Functions": 
+    - 'api/Zoro Search.md'
+    - 'api/Anime Info.md'
+    - 'api/Episode List.md'
+    - 'api/Episode Server.md'
+    - 'api/Episode Stream.md'
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "zoro-to-api",
+  "version": "1.0.0",
+  "description": "API wrapper for zoro.to",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "author": "yashraj-n",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/node": "^18.11.17",
+    "anilist-node": "^1.13.1",
+    "axios": "^1.2.1",
+    "cheerio": "^1.0.0-rc.12",
+    "cross-fetch": "^3.1.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test":"mocha tests/*.js",
+    "prepack": "npm run build && npm run test"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
