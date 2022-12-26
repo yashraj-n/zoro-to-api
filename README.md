@@ -2,7 +2,7 @@
 
 A simple wrapper for the Zoro.to API
 
-[Documentation](https://github.com/yashraj-n/zoro-to-api)
+[Documentation](https://yashraj-n.github.io/zoro-to-api/)
 ## Installation
 
 ```bash
