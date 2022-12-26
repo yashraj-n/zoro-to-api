@@ -22,5 +22,9 @@
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^10.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashraj-n/zoro-to-api.git"
   }
 }
