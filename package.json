@@ -1,6 +1,6 @@
 {
   "name": "zoro-to-api",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "API wrapper for zoro.to",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test":"mocha tests/*.js",
+    "test": "mocha tests/*.js",
     "prepack": "npm run build && npm run test"
   },
   "devDependencies": {
