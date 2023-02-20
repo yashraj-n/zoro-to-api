@@ -30,7 +30,7 @@ let horimiya = zoroResults[0]
 let info = Zoro.getAnimeInfoByName(horimiya.eng_title); 
 
 // Get the episodes for the first result
-let eps = Zoro.getEpList(horimiya.eng_title); 
+let eps = Zoro.getEpList(horimiya.id); 
 
 // Get the first episode
 let firstEpisode = eps.episodes[0];
